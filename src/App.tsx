@@ -1,5 +1,6 @@
 import Tittle from "./componenst/header/Header"
 import Seguro from "./componenst/seccion1/Seccion1"
+import style from "./App.module.css"
 
 
 
@@ -8,7 +9,7 @@ import Seguro from "./componenst/seccion1/Seccion1"
 function App() {
 
     return(
-       <div>
+       <div className={style.content}>
         <Tittle />
         <Seguro />
        </div>

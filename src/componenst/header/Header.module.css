@@ -1,0 +1,15 @@
+.container{
+    background-color:white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin-top: 13px;
+}
+.item{
+    color: rgb(35, 91, 141);
+    position: relative;
+    text-decoration: none;
+}
