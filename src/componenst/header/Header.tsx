@@ -2,25 +2,29 @@ import style from "./Header.module.css"
 import logo from "../../assets/logo.svg"
 
 
+
+
 const Tittle = () => {
-    
+ /*    const [isOpen, setIsOpen] = useState(false) 
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    }
+     */
     return(
-        <div className={style.container}>
-            <div className={style.svg}>
-               <a href="#"><img src={logo} alt="logo pagina" /></a>
+        <div className={style.navbar}>
+
+            <div className={style.nav_logo}><a href="#"><img src={logo} alt="logo pagina" /></a></div>
+
+            <div className={style.nav_items}>
+                <a href="#">how</a>
+                <a href="#">we work</a>
+                <a href="#">block</a>
+                <a href="#">account</a>
+                <button>view plans</button>   
             </div>
-            <nav className={style.navbar}>
-                <ul className={style.list}>
-                    <a href="#" className={style.item}><li>how </li></a>
-                    <a href="#" className={style.item}><li>we work</li></a>
-                    <a href="#" className={style.item}><li>block</li></a>
-                    <a href="#" className={style.item}><li>account</li></a>
-                    <button>
-                         view plans
-                    </button>
-                </ul>
-            </nav>
-            <div className="nav_toggle">
+            
+            <div className={style.nav_toggle}>
                 <span></span>
                 <span></span>
                 <span></span>
