@@ -5,14 +5,14 @@ import style from "./App.module.css"
 
 
 
-
-
 function App() {
+
 
     return(
        <div className={style.content}>
         <Tittle />
         <Seguro />
+        
        </div>
     )    
 }
