@@ -63,7 +63,7 @@ button{
      .nav_toggle{
         display: flex !important;
         flex-direction: column;
-        margin: 10px;
+        margin: 0 23px 0 0;
         padding: 7px;
         border: solid 1px;
      }

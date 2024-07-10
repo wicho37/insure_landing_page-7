@@ -1,0 +1,11 @@
+.container{
+    text-align: center;
+    
+}
+.container h1{
+    margin-top: 144px;
+    padding: 43px 0 20px;
+    font-size: 50px;
+    border-top: 1px solid;
+    letter-spacing: -1px;
+}

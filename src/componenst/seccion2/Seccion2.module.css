@@ -1,0 +1,18 @@
+.contentCard{
+    margin: 20px;
+    padding: 5px;
+}
+.contentCard img{
+    margin: 36px 0;
+}
+.contentCard div p {
+    margin: 3px;
+    font-size: 18px;
+    line-height: 29px;
+    color: hsl(273, 4%, 51%);
+}
+h3{
+    font-size: 32px;
+    margin-bottom: 23px;
+    letter-spacing: -2px;
+}

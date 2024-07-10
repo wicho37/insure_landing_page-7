@@ -1,0 +1,29 @@
+.cobertura{
+    background-color: hsl(256, 26%, 20%);
+    background-image: url(../../assets/img_mobil/bg-pattern-intro-left-mobile.svg);
+    position:relative ;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    height: 528px;
+    text-align: center;
+}
+.cobertura p{
+    margin: 10px 28px;
+    letter-spacing: 1px;
+    font-size: 15.5px;
+    line-height: 29px;
+}
+h2{
+    font-size: 50px;
+    padding: 97px 16px 10px;
+    line-height: 49px;
+}
+.boton2{
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    border: solid 2px;
+    font-size: 12px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    margin: 32px 0;
+}

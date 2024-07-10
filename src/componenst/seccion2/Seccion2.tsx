@@ -1,25 +1,20 @@
+import style from "./Seccion2.module.css"
 
-import { useState } from "react"
 
-const Click = () => {
-    const [saludo, setSaludo] = useState(true)
-
-    const cambiarSaludo = () => {
-        setSaludo(!saludo)
-        console.log(saludo)
-    }
+const Card = ({img, tittle, text}) => {
+    
 
     return(
-        <div>
+        <div  className={style.contentCard}>
+            <img src={img} alt="" />
             <div>
-              <h2>menu</h2>
-              <hr />
-              <button onClick={cambiarSaludo}>cambiar</button>
-              <p>{saludo ? "hola mundo" : "chao mundo" }</p>
+                <h3>{tittle}</h3> 
+                <p>{text}</p>
             </div>
+          
         </div>
     )
 }
 
 
-export default Click
+export default Card
