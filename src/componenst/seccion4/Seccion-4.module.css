@@ -1,0 +1,30 @@
+.nosotros{
+    background-color: hsl(256, 26%, 20%);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    height: 368px;
+    margin: 25px;
+    text-align: center;
+}
+.parrafo{
+    font-size: 45px;
+    letter-spacing: -1px;
+    margin-top: 121px;
+    padding-top: 74px;
+    font-weight: 550;
+    line-height: 47px;
+}
+.imgHoWe{
+    position: absolute;
+    margin: 0 -14px;
+}
+
+.boton3{
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    border: solid 1px;
+    font-size: 12px;
+    padding: 12px 26px;
+    letter-spacing: 2px;
+    margin: 32px 0 64px;
+}

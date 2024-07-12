@@ -27,3 +27,6 @@ h2{
     letter-spacing: 2px;
     margin: 32px 0;
 }
+.introRigth{
+    position: absolute;
+}
