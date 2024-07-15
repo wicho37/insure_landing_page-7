@@ -10,9 +10,10 @@
     font-size: 45px;
     letter-spacing: -1px;
     margin-top: 121px;
-    padding-top: 74px;
+    padding-top: 72px;
     font-weight: 550;
     line-height: 47px;
+    position: relative;
 }
 .imgHoWe{
     position: absolute;

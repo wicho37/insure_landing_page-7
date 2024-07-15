@@ -4,14 +4,14 @@
     position:relative ;
     background-repeat: no-repeat;
     color: aliceblue;
-    height: 528px;
+    height: 520px;
     text-align: center;
 }
 .cobertura p{
-    margin: 10px 28px;
+    margin: 10px 20px;
     letter-spacing: 1px;
-    font-size: 15.5px;
-    line-height: 29px;
+    font-size: 16px;
+    line-height: 28px;
 }
 h2{
     font-size: 50px;
@@ -23,9 +23,13 @@ h2{
     color: white;
     border: solid 2px;
     font-size: 12px;
-    padding: 10px 20px;
+    padding: 12px 25px;
     letter-spacing: 2px;
-    margin: 32px 0;
+    margin: 24px 0 0 -77px;
+    position: absolute;
+}
+.cobertura img{
+    float: inline-end;
 }
 .introRigth{
     position: absolute;
