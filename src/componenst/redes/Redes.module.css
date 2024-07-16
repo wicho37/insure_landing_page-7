@@ -1,0 +1,14 @@
+.social{
+    height: 250px;
+    border-bottom: 1px solid;
+    margin: 0px;
+}
+.networks{
+    text-align: center;
+    margin-top: 146px;
+    padding-top: 116px;
+}
+ .Nav{
+    position: absolute;
+    transform: scale(-1);
+ }
