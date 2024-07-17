@@ -4,7 +4,7 @@ import social2 from "../../assets/icon-twitter.svg"
 import social3 from "../../assets/icon-pinterest.svg"
 import social4 from "../../assets/icon-instagram.svg"
 import style from "./Redes.module.css"
-import patternNav from "../../assets/img_mobil/bg-pattern-mobile-nav.svg"
+import patternNav from "../../assets/img_mobil/bg-pattern-footer-mobile.svg"
 
 
 

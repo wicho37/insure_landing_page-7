@@ -1,14 +1,24 @@
 .social{
-    height: 250px;
+    height: 200px;
     border-bottom: 1px solid;
-    margin: 0px;
 }
 .networks{
     text-align: center;
     margin-top: 146px;
-    padding-top: 116px;
+    padding-top: 88px;
+}
+.networks div{
+    position: relative;
+    margin: 24px 0;
+}
+.networks div a{
+    margin: 0 9px;
+}
+.networks img{
+    position: relative;
 }
  .Nav{
     position: absolute;
-    transform: scale(-1);
+    transform: scale(1);
+    opacity: 1;
  }
