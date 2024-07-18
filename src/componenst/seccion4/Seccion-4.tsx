@@ -7,7 +7,7 @@ const Nostros = () => {
 
     return(
         <div className={style.nosotros}>
-             <img src={imgWeWork} className={style.imgHoWe}/>
+            <img src={imgWeWork} className={style.imgHoWe}/>
             <p className={style.parrafo}>Find out more about how we work</p>
             <button className={style.boton3}>HOW WE WORK</button>
            

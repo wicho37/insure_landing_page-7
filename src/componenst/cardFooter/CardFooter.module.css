@@ -1,0 +1,24 @@
+.contentCardFooter{
+    text-transform: uppercase;
+    font-size: 12px; 
+    letter-spacing: 3px;
+    margin: -15px;
+}
+.contentText{
+   display: grid;
+}
+.contentText a{
+    margin: 7px 0;
+}
+h4{
+    padding: 40px 0 0;
+    color: hsl(273, 4%, 51%);
+    letter-spacing: 1.5px;
+    margin: 10px 0 32px;
+    font-family: karla;
+    font-size: 15px;
+} 
+.contentCardFooter::first-line{
+    border-top: 1px solid #ccd7de;
+    margin: 0 26px;
+}

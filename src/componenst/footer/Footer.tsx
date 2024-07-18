@@ -1,4 +1,4 @@
-import CardFooter from "./CardFooter"
+import CardFooter from "../cardFooter/CardFooter"
 import style from "./Footer.module.css"
 
 
