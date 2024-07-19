@@ -6,13 +6,16 @@
     margin: 36px 0;
 }
 .contentCard div p {
-    margin: 3px;
-    font-size: 18px;
-    line-height: 29px;
-    color: hsl(273, 4%, 51%);
+    margin: 0%;
+    font-size: 17px;
+    line-height: 27px;
+    color: hsl(270deg 9% 17% / 67%);
+    font-weight: bold;
 }
 h3{
     font-size: 32px;
     margin-bottom: 23px;
     letter-spacing: -2px;
+    font-family: DM Serif Display;
+    font-weight: 600;
 }

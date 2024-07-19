@@ -1,36 +1,42 @@
 .cobertura{
     background-color: hsl(256, 26%, 20%);
-    background-image: url(../../assets/img_mobil/bg-pattern-intro-left-mobile.svg);
     position:relative ;
     background-repeat: no-repeat;
     color: aliceblue;
-    height: 520px;
+    height: 978px;
     text-align: center;
 }
 .cobertura p{
-    margin: 10px 20px;
-    letter-spacing: 1px;
-    font-size: 16px;
+    padding: 15px;
+    margin: 3px 9px;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0px;
     line-height: 28px;
 }
-h2{
+.cobertura h2{
     font-size: 50px;
-    padding: 97px 16px 10px;
-    line-height: 49px;
+    font-family: DM Serif Display;
+    position: relative;
+    margin: 83px 9px 0;
+    line-height: 46px;
+    height: 86px;
+    padding: 12px;
 }
 .boton2{
     background-color: hsl(256, 26%, 20%);
     color: white;
     border: solid 2px;
-    font-size: 12px;
-    padding: 12px 33px;
-    letter-spacing: 2px;
-    margin: 18px 0 0 -75px;
+    font-size: 14px;
+    padding: 11px 23px;
+    letter-spacing: 3px;
+    margin: 14px -75px 13px;
     position: absolute;
 }
-.cobertura img{
+.introLeft1{
+    margin: -4px -50%;
+    position: absolute;
+}
+.introRigth1{
     float: inline-end;
-}
-.introRigth{
-    position: absolute;
 }
