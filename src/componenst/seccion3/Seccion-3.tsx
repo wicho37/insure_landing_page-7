@@ -9,6 +9,7 @@ import style from "./Seccion-3.module.css"
 const Different = () => {
     return(
         <div className={style.container}>
+            <strong></strong>
             <h1>We`re different</h1>
          <Card
             img={img1}
