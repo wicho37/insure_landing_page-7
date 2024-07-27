@@ -15,13 +15,12 @@
     line-height: 28px;
 }
 .cobertura h2{
-    font-size: 50px;
+    font-size: 49px;
     font-family: DM Serif Display;
     position: relative;
-    margin: 83px 9px 0;
     line-height: 46px;
-    height: 86px;
-    padding: 12px;
+    height: 98px;
+    padding: 95px 4px 0px;
 }
 .boton2{
     background-color: hsl(256, 26%, 20%);
@@ -40,3 +39,35 @@
 .introRigth1{
     float: inline-end;
 }
+
+@media (min-width: 1200px) {
+    .cobertura{
+        height: 450px;
+        display: flex;
+        flex-direction: row-reverse;
+    } 
+    .cobertura div{
+        padding: 4% 0px 3% 87px;
+        margin: 0;
+        text-align: left;
+    }
+    .introLeft1, .introRigth1{
+        display: none;
+    }
+}
+ /*@media(max-width: 1200px){
+    .cobertura{
+        height: 450px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .cobertura div{
+        padding: 7% 135px 6%;
+        margin-right: 31%;
+    }
+    .cobertura div img{
+        position: absolute;
+    margin: 83px -42%;
+    }
+
+} */
