@@ -32,6 +32,13 @@
     margin: 14px -75px 13px;
     position: absolute;
 }
+.coberturadiv p {
+    margin-left: 111px;
+    padding-top: 26px;
+    font-size: 14px;
+    width: 104%;
+    line-height: 24px;
+}
 .introLeft1{
     margin: -4px -50%;
     position: absolute;
@@ -42,18 +49,51 @@
 
 @media (min-width: 1200px) {
     .cobertura{
-        height: 450px;
+        height: 492px;
         display: flex;
         flex-direction: row-reverse;
+        /* background-image: url(../../assets/img_desktop/bg-pattern-intro-right-desktop.svg);
+        background-position-x: right;
+        background-position-y: bottom; */
     } 
     .cobertura div{
-        padding: 4% 0px 3% 87px;
-        margin: 0;
+        margin-top: 83px;
+        margin-right: 165px;
         text-align: left;
+    }
+    .cobertura div img {
+        width: 436px;
+    }
+    .cobertura div h2{
+        text-align: left;
+        margin-left: 127px;
+        padding: 46px 0px 0px 0px;
+        font-size: 57px;
+        line-height: 52px;
+        width: 95%;
+    }
+    .cobertura div p {
+        margin-left: 111px;
+        padding-top: 26px;
+        font-size: 14px;
+        width: 103%;
+        line-height: 24px;
+    }
+    .boton2{
+        margin-left: 125px;
     }
     .introLeft1, .introRigth1{
         display: none;
     }
+    .introLeftDesk{
+        width: 152px;
+        margin-top: 267px;
+        position: absolute;    
+    }
+    /* .introRigthdDesk{
+
+    } */
+    
 }
  /*@media(max-width: 1200px){
     .cobertura{
