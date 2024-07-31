@@ -39,6 +39,9 @@
     width: 104%;
     line-height: 24px;
 }
+.introLeftDesktop, .introRigthDesktop{
+    display: none;
+}
 .introLeft1{
     margin: -4px -50%;
     position: absolute;
@@ -46,28 +49,28 @@
 .introRigth1{
     float: inline-end;
 }
+.boton3{
+    background-color: hsl(256, 26%, 20%);
+}
 
 @media (min-width: 1200px) {
     .cobertura{
         height: 492px;
         display: flex;
         flex-direction: row-reverse;
-        /* background-image: url(../../assets/img_desktop/bg-pattern-intro-right-desktop.svg);
-        background-position-x: right;
-        background-position-y: bottom; */
     } 
     .cobertura div{
         margin-top: 83px;
         margin-right: 165px;
         text-align: left;
     }
-    .cobertura div img {
+    .cobertura div .imgPpal{
         width: 436px;
     }
     .cobertura div h2{
         text-align: left;
         margin-left: 127px;
-        padding: 46px 0px 0px 0px;
+        padding: 33px 0px 0px 0px;
         font-size: 57px;
         line-height: 52px;
         width: 95%;
@@ -81,33 +84,31 @@
     }
     .boton2{
         margin-left: 125px;
+        padding: 9px 19px;
+        font-size: 10px;
+        letter-spacing: 3px;
+        border: solid 1px;
     }
     .introLeft1, .introRigth1{
         display: none;
     }
-    .introLeftDesk{
+    .introLeftDesktop{
         width: 152px;
-        margin-top: 267px;
-        position: absolute;    
+        margin-top: 275px;
+        position: absolute;   
+        display: flex; 
     }
-    /* .introRigthdDesk{
-
-    } */
+    .introRigthDesktop{
+        position: absolute;
+        display: flex; 
+        width: 365px;
+        margin: -68px 15px;
+    }
+    .boton3{
+        padding: 0px 60px;
+        border-top: solid 2px;
+        margin-left: 125px;
+        color: hsl(0deg 0% 98% / 44%)
+    }
     
 }
- /*@media(max-width: 1200px){
-    .cobertura{
-        height: 450px;
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    .cobertura div{
-        padding: 7% 135px 6%;
-        margin-right: 31%;
-    }
-    .cobertura div img{
-        position: absolute;
-    margin: 83px -42%;
-    }
-
-} */

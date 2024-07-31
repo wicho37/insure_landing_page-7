@@ -1,7 +1,8 @@
+
 .container{
     text-align: center;
 }
-strong{
+.boton3{
     padding: 0px 76px;
     border-top: solid 1px;
     position: absolute;
@@ -16,3 +17,22 @@ strong{
     font-family: DM Serif Display;
     font-weight: 600;
 }
+
+
+/* @media (max-width: 1200px){
+    .container{
+        text-align: left;
+    }
+    .container h1{
+        margin-top: 20%;
+        margin-left: 127px;
+        font-size: 69px;
+        letter-spacing: -3px;
+    }
+    .boton3{
+        padding: 0px 60px;
+        border-top: solid 1px;
+        margin-left: 125px;
+        color: rgb(130 141 155 / 65%);
+    }
+} */

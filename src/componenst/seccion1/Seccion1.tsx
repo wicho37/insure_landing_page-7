@@ -9,17 +9,19 @@ import introRigthDesk from "../../assets/img_desktop/bg-pattern-intro-right-desk
 const Seguro = () => {
      return(
          <div className={style.cobertura}>
+            <img src={introRigthDesk} alt="" className={style.introRigthDesktop}/>
             <div>
-               <img src={intro} />
+               <img src={intro} className={style.imgPpal}/>
+               
             </div>
             <div>
-            <img src={introLeft} alt="" className={style.introLeft1}/>
-            <img src={introLeftDesk} alt="" className={style.introLeftDesk}/>
-            <h2>Humanizing your insurance.</h2>
-            <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
-            <button className={style.boton2}>view plans</button>
-            <img src={introRigthDesk} alt="" className={style.introRigthDesk}/>
-            <img src={introRigth} className={style.introRigth1}/>
+               <img src={introLeft} alt="" className={style.introLeft1}/>
+               <img src={introLeftDesk} alt="" className={style.introLeftDesktop}/> 
+               <span className={style.boton3}></span>
+               <h2>Humanizing your insurance.</h2>
+               <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
+               <button className={style.boton2}>view plans</button>
+               <img src={introRigth} className={style.introRigth1}/>
 
             </div>
          </div>
