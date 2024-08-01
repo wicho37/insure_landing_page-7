@@ -19,3 +19,21 @@ h3{
     font-family: DM Serif Display;
     font-weight: 600;
 }
+
+
+@media (min-width:1200px) {
+    .contentCard{
+        margin: 0px;
+    }
+    .contentCard img{
+        width: 74px;
+    }
+    h3{
+        font-size: 28px;
+        letter-spacing: -2px;
+    }
+    p{
+        font-size: 14px;
+    }
+    
+}

@@ -10,8 +10,8 @@ const Different = () => {
     return(
         <div className={style.container}>
             <strong className={style.boton3}></strong>
-            <h1>We`re different</h1>
-            <div>
+            <h1>We're different</h1>
+            <div className={style.card}>
                 <Card
                     img={img1}
                     tittle="Snappy Process" 

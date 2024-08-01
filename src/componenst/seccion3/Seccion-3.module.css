@@ -19,7 +19,7 @@
 }
 
 
-/* @media (max-width: 1200px){
+@media (min-width: 1200px){
     .container{
         text-align: left;
     }
@@ -35,4 +35,8 @@
         margin-left: 125px;
         color: rgb(130 141 155 / 65%);
     }
-} */
+    .card{
+        display: flex;
+        margin: 9px 155px 0 127px;
+    }
+}
