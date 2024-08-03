@@ -21,6 +21,9 @@
     position: absolute;
     margin: 0 -14px;
 }
+.imgHoWe1{
+    display: none;
+}
 
 .boton3{
     background-color: hsl(256, 26%, 20%);
@@ -30,4 +33,38 @@
     padding: 12px 26px;
     letter-spacing: 2px;
     margin: 32px 0 64px;
+}
+
+
+@media (min-width:1200px) {
+    .nosotros{
+        height: 217px;
+        margin: 12%;
+        text-align: left;
+        display: flex;    
+        background-image: url(../../assets/img_desktop/bg-pattern-how-we-work-desktop.svg);
+        background-position: 100%;
+    }
+    .imgHoWe{
+        display: none;
+    }
+    .nosotros div{
+        display: flex;
+        flex-direction: row;
+    }
+    .parrafo{
+        font-size: 48px;
+        margin: 7% 224px 0 61px;
+        width: 44%;
+        padding: 0%;
+    }
+    .boton3{
+        margin: 93px 0;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: 13px;
+        padding: 5px 22px;
+    }
+
+    
 }
