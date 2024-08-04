@@ -20,4 +20,33 @@
     position: absolute;
     transform: scale(1);
     opacity: 1;
+    width: 100%;
+ }
+ .footer{
+    display: none;
+ }
+
+
+ @media (min-width:1200px) {
+    .networks{
+        display: contents;
+    }
+    .networks img{
+        margin-top: 12%;
+        margin-left: 12%;
+    }
+    .networks div{
+        margin-top: -6%;
+        margin-left: 66%;
+        margin-right: 3%;
+    }
+    .networks div a {
+        margin: -17px;
+    }
+    .Nav{
+        display: none;
+    }
+    /* .footer{
+        display: contents;
+    } */
  }

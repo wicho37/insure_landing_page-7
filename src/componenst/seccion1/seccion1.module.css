@@ -101,8 +101,8 @@
     .introRigthDesktop{
         position: absolute;
         display: flex; 
-        width: 365px;
-        margin: -68px 15px;
+        width: 369px;
+        margin: -68px 0px;
     }
     .boton3{
         padding: 0px 60px;
