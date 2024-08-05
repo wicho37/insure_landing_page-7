@@ -14,10 +14,10 @@ const SocialNeuwork = () => {
     return(
         <div className={style.social}>
             <img src={patternNav} alt="" className={style.Nav}/>
-            
+            <img src={patternFooter} alt="" className={style.footer}/>
             <div className={style.networks}>
                    <img src={logo} alt="logo pagina" />
-                   <img src={patternFooter} alt="" className={style.footer}/>
+                   
                 <div>
                    <a href="#"><img src={social1} alt="" /></a>
                    <a href="#"><img src={social2} alt="" /></a>

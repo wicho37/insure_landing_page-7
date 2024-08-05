@@ -18,8 +18,11 @@ function App() {
         <Seguro />
         <Different />
         <Nostros />
-        <SocialNeuwork />
-        <Footer />
+        <div className={style.content2}>
+            <SocialNeuwork />
+            <Footer />
+        </div>
+       
         
        </div>
     )    
