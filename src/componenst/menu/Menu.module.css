@@ -1,0 +1,21 @@
+/* src/components/Menu.css */
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .menu li.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  

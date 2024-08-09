@@ -1,6 +1,6 @@
 .cobertura{
     background-color: hsl(256, 26%, 20%);
-    position:relative ;
+    /* position:relative ; */
     background-repeat: no-repeat;
     color: aliceblue;
     height: 978px;
@@ -101,8 +101,8 @@
     .introRigthDesktop{
         position: absolute;
         display: flex; 
-        width: 369px;
-        margin: -68px 0px;
+        width: 27%;
+        margin:0px;
     }
     .boton3{
         padding: 0px 60px;
