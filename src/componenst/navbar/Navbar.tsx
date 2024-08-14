@@ -1,6 +1,6 @@
 // src/components/Navbar.tsx
 import React, { useState } from 'react';
-import './Navbar.css';
+import styles from "./Navbar.module.css"
 import logo from "../../assets/logo.svg"
 import hamburguer from "../../assets/icon-hamburger.svg"
 
@@ -19,6 +19,7 @@ const navItems: NavItem[] = [
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState<number>(1);
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
+  const [botonForm, setBotonForm] = useState (false)
   console.log(menuOpen)
 
   const handleClick = (id: number) => {
@@ -28,28 +29,32 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-    
   };
 
+  const toogleBoton = () => {
+    setBotonForm (!botonForm);
+    console.log(botonForm)
+  }
+
   return (
-    <nav className="navbar">
-      <div className="navbar-brand">
+    <nav className={styles.navbar}>
+      <div className={styles.navbarBrand}>
       <img src={logo}></img>
-        <button className="navbar-toggler" onClick={toggleMenu}>
-          <img src={hamburguer} alt="" className='hamburguer'/>
+        <button className={styles.navbarToggler} onClick={toggleMenu}>
+          <img src={hamburguer} alt="" className={styles.hamburguer}/>
         </button>
       </div>
-      <ul className={`navbar-list ${menuOpen ? 'open' : ''}`}>
+      <ul className={`${styles.navbarList} ${menuOpen ? styles.open : ''}`}>
         {navItems.map((item) => (
           <li
             key={item.id}
-            className={`navbar-item ${item.id === activeItem ? 'active' : ''}`}
+            className={`${styles.navbarItem} ${item.id === activeItem ? styles.active : ''}`}
             onClick={() => handleClick(item.id)}
           >
             {item.name}
           </li>
         ))}
-        <button className="boton">view plans</button> 
+        <button className={styles.boton} onClick={toogleBoton}>view plans</button> 
       </ul>
     </nav>
   );

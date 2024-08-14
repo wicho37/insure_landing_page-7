@@ -8,19 +8,19 @@
     align-items: center;
   }
   
-  .navbar-brand {
+  .navbarBrand {
     color: white;
     font-size: 1.2em;
     display: contents;
   }
-  .navbar-brand img{
+  .navbarBrand img{
       margin-left: 10%;
   }
-  .navbar-brand .hambuerguer{
+  .navbarBrand .hambuerguer{
     margin-right: 13px;
   }
   
-  .navbar-toggler {
+  .navbarToggler {
     display: none;
     font-size: 1.5em;
     background: none;
@@ -28,7 +28,7 @@
     color: rgb(22, 12, 12);
     cursor: pointer;
   }
-  .navbar-list {
+  .navbarList {
     align-items: baseline;
     list-style: none;
     display: flex;
@@ -37,7 +37,7 @@
     padding: 0;
   }
   
-  .navbar-item {
+  .navbarItem {
     color: hsl(273, 4%, 51%);
     text-transform: uppercase;
     font-size: 11px;
@@ -56,16 +56,20 @@
     font-size: 10px;
     font-weight: 600;
 }
-  .navbar-item:hover {
+button.clicked{
+  background-color: black;
+  color: white;
+}
+  .navbarItem:hover {
     background-color: #555;
   }
   
   @media (max-width: 1200px) {
-    .navbar-toggler {
+    .navbarToggler {
       display: block;
     }
     
-    .navbar-list {
+    .navbarList {
       display: none;
       flex-direction: column;
       gap: 10px;
@@ -77,15 +81,15 @@
       border-radius: 4px;
     }
   
-    .navbar-list.open {
+    .navbarList.open {
       display: flex;
       margin: 0px;
     }
-    .navbar-item {
+    .navbarItem {
       padding: 10px;
       color: hsl(273, 4%, 51%);
     }
-    .navbar-brand img{
+    .navbarBrand img{
       margin-left: 16px;
     }
   }

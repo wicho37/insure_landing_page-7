@@ -89,6 +89,9 @@
         letter-spacing: 3px;
         border: solid 1px;
     }
+    .boton2.botonForm{
+        background-color:white;
+    }
     .introLeft1, .introRigth1{
         display: none;
     }
