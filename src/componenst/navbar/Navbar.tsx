@@ -54,7 +54,7 @@ const Navbar = () => {
             {item.name}
           </li>
         ))}
-        <button className={styles.boton} onClick={toogleBoton}>view plans</button> 
+        <button className={`${styles.boton} ${styles.boton ? styles.push : ""}`} onClick={toogleBoton}>view plans</button> 
       </ul>
     </nav>
   );

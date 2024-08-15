@@ -48,10 +48,15 @@ import logo from "../../assets/logo.svg"
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const [botonForm, setBotonForm] = useState (false)
 
     const ToggleMenu = () => {
         setIsOpen(!isOpen)
         console.log(isOpen)
+    }
+    const toggleBoton1 = () => {
+        setBotonForm(!botonForm)
+        console.log(botonForm)
     }
     return (
         <div className={styles.navbar}>
@@ -60,7 +65,7 @@ const Navbar = () => {
                 <a href="">how we work</a>
                 <a href="">blog</a>
                 <a href="">account</a>
-                <button>view plans</button>
+                <button  className={`${styles.button} ${botonForm && styles.push}` } onClick={toggleBoton1}>view plans</button>
             </div>
             <div className= {`${styles.nav_toggle} ${isOpen && styles.open}`} onClick={ToggleMenu} >
                 <span></span>

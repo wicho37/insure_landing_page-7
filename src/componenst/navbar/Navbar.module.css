@@ -55,13 +55,17 @@
     text-transform: uppercase;
     font-size: 10px;
     font-weight: 600;
+    cursor: pointer;
 }
 button.clicked{
   background-color: black;
   color: white;
 }
+button:hover{
+  background-color: hsl(256, 26%, 20%);
+}
   .navbarItem:hover {
-    background-color: #555;
+    background-color: hsl(256, 26%, 20%);
   }
   
   @media (max-width: 1200px) {

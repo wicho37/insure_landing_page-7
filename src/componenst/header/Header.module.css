@@ -67,6 +67,10 @@ button{
         font-size: 13px;
         font-weight: 600;
         margin-left: 25px;
+        cursor: pointer;
+       }
+       .button.push{
+         background-color: blue;
        }
         .nav_toggle{
            display: flex !important;

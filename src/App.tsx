@@ -15,8 +15,8 @@ function App() {
 
     return(
        <div className={style.content}>
-        <Tittle />
-        {/* <Navbar /> */}
+        {/* <Tittle /> */}
+        <Navbar />
         <Seguro />
         <Different />
         <Nostros />
