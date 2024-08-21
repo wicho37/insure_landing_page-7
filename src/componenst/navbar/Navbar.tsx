@@ -19,7 +19,6 @@ const navItems: NavItem[] = [
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState<number>(1);
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
-  const [botonForm, setBotonForm] = useState (false)
   console.log(menuOpen)
 
   const handleClick = (id: number) => {
@@ -30,11 +29,6 @@ const Navbar = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-
-  const toogleBoton = () => {
-    setBotonForm (!botonForm);
-    console.log(botonForm)
-  }
 
   return (
     <nav className={styles.navbar}>
@@ -54,7 +48,7 @@ const Navbar = () => {
             {item.name}
           </li>
         ))}
-        <button className={`${styles.boton} ${styles.boton ? styles.push : ""}`} onClick={toogleBoton}>view plans</button> 
+        <button className={styles.boton2}>view plans</button> 
       </ul>
     </nav>
   );

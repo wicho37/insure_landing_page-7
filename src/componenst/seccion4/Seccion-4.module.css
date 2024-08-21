@@ -33,7 +33,11 @@
     letter-spacing: 2px;
     margin: 32px 0 64px;
 }
-
+/* este boton en hover no me funsiona ya q esta la imagen en posicion absoluta */
+.boton3:hover{
+    background-color: aliceblue;
+    color: black;
+}
 
 @media (min-width:1200px) {
     .nosotros{
@@ -41,8 +45,6 @@
         margin: 11%;
         text-align: left;
         display: flex;    
-       /*  background-image: url(../../assets/img_desktop/bg-pattern-how-we-work-desktop.svg);
-        background-position: 100%; */
     }
     .imgHoWeDesk{
         position: absolute;
@@ -71,6 +73,4 @@
         padding: 0px;
         width: 201px;
     }
-
-    
 }

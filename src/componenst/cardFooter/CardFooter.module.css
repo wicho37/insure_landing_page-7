@@ -12,6 +12,10 @@
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 2px;
+    cursor: pointer;
+}
+.contentText a:hover{
+  text-decoration:underline;
 }
 h4{
     padding: 35px 0 0;

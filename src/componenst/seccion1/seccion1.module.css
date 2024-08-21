@@ -32,6 +32,10 @@
     margin: 14px -75px 13px;
     position: absolute;
 }
+.boton2:hover{
+    background-color: white;
+    color: black;
+}
 .coberturadiv p {
     margin-left: 111px;
     padding-top: 26px;
@@ -52,6 +56,7 @@
 .boton3{
     background-color: hsl(256, 26%, 20%);
 }
+
 
 @media (min-width: 1200px) {
     .cobertura{

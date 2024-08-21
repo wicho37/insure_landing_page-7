@@ -16,7 +16,7 @@ const SocialNeuwork = () => {
             <img src={patternNav} alt="" className={style.Nav}/>
             <img src={patternFooter} alt="" className={style.footer}/>
             <div className={style.networks}>
-                   <img src={logo} alt="logo pagina" />
+                   <img src={logo} className={style.imgLogo} alt="logo pagina" />
                    
                 <div>
                    <a href="#"><img src={social1} alt="" /></a>

@@ -13,8 +13,15 @@
 .networks div a{
     margin: 0 11px;
 }
+.networks div a:hover{
+    filter: brightness(0.5)
+}
 .networks img{
     position: relative;
+    margin: 20px 10px;
+}
+.networks .imgLogo{
+    margin: 4% 0px 0px 12%;
 }
 .Nav{
     position: absolute;
@@ -35,12 +42,15 @@
         display: contents;
     }
     .networks img{
-        margin-top: 4.5%;
-        margin-left: 12%;
+        margin: 20px;
+        padding: 3px;
+    }
+    .imgLogo{
+        margin: 10px;
     }
     .networks div{
         margin-top: -4.3%;
-        margin-left: 66%;
+        margin-left: 70%;
         margin-right: 3%;
     }
     .networks div a {
@@ -52,6 +62,5 @@
     .footer{
         display: flex;
         position: absolute;
-        /* margin-top: 84px; */
     }
  }
