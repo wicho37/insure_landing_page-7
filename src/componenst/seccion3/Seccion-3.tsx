@@ -21,7 +21,6 @@ const Different = () => {
                      img={img2}
                      tittle="Affordable Prices" 
                      text="we don't want you worrying about high montly cost. Our price may be low. but we still offer the best coverage possible"
-
                  />
                 <Card 
                      img={img3}

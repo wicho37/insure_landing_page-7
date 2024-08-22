@@ -1,5 +1,5 @@
 // src/components/Navbar.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from "./Navbar.module.css"
 import logo from "../../assets/logo.svg"
 import hamburguer from "../../assets/icon-hamburger.svg"
@@ -54,4 +54,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar

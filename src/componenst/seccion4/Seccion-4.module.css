@@ -23,21 +23,22 @@
 .imgHoWeDesk{
     display: none;
 }
-
 .boton3{
     background-color: hsl(256, 26%, 20%);
     color: white;
     border: solid 1px;
     font-size: 12px;
     padding: 12px 26px;
+    position: relative;
     letter-spacing: 2px;
     margin: 32px 0 64px;
 }
-/* este boton en hover no me funsiona ya q esta la imagen en posicion absoluta */
+/* este boton en hover no me funsiona en desktop ya q esta la imagen en posicion absoluta,y no encuentro la manera de solucionar */
 .boton3:hover{
     background-color: aliceblue;
     color: black;
 }
+
 
 @media (min-width:1200px) {
     .nosotros{
@@ -52,11 +53,9 @@
         width: 29%;
         display: block;
     }
-
     .imgHoWe{
         display: none;
     }
-    
     .nosotros div{
         display: flex;
     }

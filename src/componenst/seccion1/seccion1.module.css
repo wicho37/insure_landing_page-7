@@ -1,6 +1,5 @@
 .cobertura{
     background-color: hsl(256, 26%, 20%);
-    /* position:relative ; */
     background-repeat: no-repeat;
     color: aliceblue;
     height: 978px;
@@ -118,5 +117,4 @@
         margin-left: 125px;
         color: hsl(0deg 0% 98% / 44%)
     }
-    
 }

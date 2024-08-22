@@ -3,7 +3,6 @@ import style from "./Seccion2.module.css"
 
 const Card = ({img, tittle, text}) => {
     
-
     return(
         <div  className={style.contentCard}>
             <img src={img} alt="" />
@@ -11,7 +10,6 @@ const Card = ({img, tittle, text}) => {
                 <h3>{tittle}</h3> 
                 <p>{text}</p>
             </div>
-          
         </div>
     )
 }
