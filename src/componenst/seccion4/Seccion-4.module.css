@@ -24,7 +24,7 @@
     display: none;
 }
 .boton3{
-    background-color: hsl(256, 26%, 20%);
+    background-color: transparent;
     color: white;
     border: solid 1px;
     font-size: 12px;
@@ -32,8 +32,9 @@
     position: relative;
     letter-spacing: 2px;
     margin: 32px 0 64px;
+    position: relative;
+    z-index: 10;
 }
-/* este boton en hover no me funsiona en desktop ya q esta la imagen en posicion absoluta,y no encuentro la manera de solucionar */
 .boton3:hover{
     background-color: aliceblue;
     color: black;
