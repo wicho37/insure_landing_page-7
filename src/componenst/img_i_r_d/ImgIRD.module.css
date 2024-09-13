@@ -1,0 +1,21 @@
+.introRight3{
+    display: none;
+}
+
+
+
+@media (min-width:1200px) {
+
+.introRight3{
+    margin-top: -67px;
+    margin-left: 70%;
+    position: relative;
+    width: 30%;
+    display: block;
+}
+.content2{
+    height: 492px;
+    width: 100%;
+    overflow: hidden;
+}
+}

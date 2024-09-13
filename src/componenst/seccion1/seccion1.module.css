@@ -1,120 +1,110 @@
-.cobertura{
-    background-color: hsl(256, 26%, 20%);
-    background-repeat: no-repeat;
-    color: aliceblue;
-    height: 978px;
-    text-align: center;
-}
-.cobertura p{
-    padding: 15px;
-    margin: 3px 9px;
-    font-weight: 500;
-    font-size: 17px;
-    letter-spacing: 0px;
-    line-height: 28px;
-}
-.cobertura h2{
-    font-size: 49px;
-    font-family: DM Serif Display;
-    position: relative;
-    line-height: 46px;
-    height: 98px;
-    padding: 95px 4px 0px;
-}
-.boton2{
-    background-color: hsl(256, 26%, 20%);
-    color: white;
-    border: solid 2px;
-    font-size: 14px;
-    padding: 11px 23px;
-    letter-spacing: 3px;
-    margin: 14px -75px 13px;
-    position: absolute;
-}
-.boton2:hover{
-    background-color: white;
-    color: black;
-}
-.coberturadiv p {
-    margin-left: 111px;
-    padding-top: 26px;
-    font-size: 14px;
-    width: 104%;
-    line-height: 24px;
-}
-.introLeftDesktop, .introRigthDesktop{
+.introLeftDesktop {
     display: none;
 }
+.cobertura{
+    background-color: hsl(256, 26%, 20%);
+    color: aliceblue;
+    height: 941px;
+    position: relative;
+    text-align: center;
+}
 .introLeft1{
-    margin: -4px -50%;
+    margin: 451px 0%;
     position: absolute;
 }
 .introRigth1{
-    float: inline-end;
+    margin-bottom: -294%;
+    margin-left: 67%;
 }
-.boton3{
-    background-color: hsl(256, 26%, 20%);
-}
+.imgPpal{
+    margin-top: -5%;
+ }
+ .contentText{
+    text-align: center;
+    margin-top: 23%;
+ }
+ .cobertura h2{
+     font-size: 49px;
+     font-family: DM Serif Display;
+     position: relative;
+     line-height: 46px;
+     height: 98px;
+     padding: 10px 4px 0px;
+ }
+ .boton2{
+     background-color: hsl(256, 26%, 20%);
+     color: white;
+     border: solid 2px;
+     font-size: 14px;
+     padding: 11px 23px;
+     letter-spacing: 3px;
+     margin: 14px -75px 13px;
+     position: absolute;
+     text-transform: uppercase;
+    }
+    .boton2:hover{
+        background-color: white;
+        color: black;
+    }
+    p {
+        padding: 6px 11px;
+        margin: 3px 9px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 1px;
+    }
+
+
 
 
 @media (min-width: 1200px) {
+    
     .cobertura{
         height: 492px;
-        display: flex;
-        flex-direction: row-reverse;
     } 
-    .cobertura div{
-        margin-top: 83px;
-        margin-right: 165px;
-        text-align: left;
-    }
-    .cobertura div .imgPpal{
-        width: 436px;
-    }
-    .cobertura div h2{
-        text-align: left;
-        margin-left: 127px;
-        padding: 33px 0px 0px 0px;
-        font-size: 57px;
-        line-height: 52px;
-        width: 95%;
-    }
-    .cobertura div p {
-        margin-left: 111px;
-        padding-top: 26px;
-        font-size: 14px;
-        width: 103%;
-        line-height: 24px;
-    }
-    .boton2{
-        margin-left: 125px;
-        padding: 9px 19px;
-        font-size: 10px;
-        letter-spacing: 3px;
-        border: solid 1px;
-    }
-    .boton2.botonForm{
-        background-color:white;
-    }
     .introLeft1, .introRigth1{
         display: none;
     }
-    .introLeftDesktop{
-        width: 152px;
-        margin-top: 275px;
-        position: absolute;   
-        display: flex; 
+    .imgPpal{
+        margin-top: -402px;
+        margin-left: 41%;
+        width: 440px;
+        position: unset;
     }
-    .introRigthDesktop{
+    .introLeftDesktop{
         position: absolute;
-        display: flex; 
-        width: 31%;
-        margin-top: -70px;
+        margin-top: -21.5%;
+        width: 12%;
+        display: block;
     }
     .boton3{
-        padding: 0px 60px;
+        padding: 31px 60px;
         border-top: solid 2px;
-        margin-left: 125px;
+        margin-left: 4px;
         color: hsl(0deg 0% 98% / 44%)
     }
+    .contentText{
+        text-align: left;
+        padding: 0px 51% 0px 117px;
+        margin-top: -41%;
+    }
+    .cobertura h2{
+        font-size: 63px;
+        margin-bottom: 2%;
+    }
+    .contentText p{
+        font-size: 11.5px;
+        line-height: 20px;
+        letter-spacing: 1.3px;
+        padding: 6px 3px;
+        margin: 0%;
+    }
+    .boton2{
+        font-size: 11px;
+        padding: 9px 21px;
+        letter-spacing: 1px;
+        margin: 23px 3px 13px;
+    }
+   
 }
