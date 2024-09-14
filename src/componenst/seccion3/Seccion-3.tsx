@@ -7,6 +7,7 @@ import style from "./Seccion-3.module.css"
 
 
 const Different = () => {
+    
     return(
         <div className={style.container}>
             <strong className={style.boton3}></strong>

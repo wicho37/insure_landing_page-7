@@ -41,21 +41,19 @@
      margin: 14px -75px 13px;
      position: absolute;
      text-transform: uppercase;
-    }
-    .boton2:hover{
-        background-color: white;
-        color: black;
-    }
-    p {
-        padding: 6px 11px;
-        margin: 3px 9px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 23px;
-        letter-spacing: 1px;
-    }
-
-
+}
+.boton2:hover{
+    background-color: white;
+    color: black;
+}
+p {
+    padding: 6px 11px;
+    margin: 3px 9px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
 
 
 @media (min-width: 1200px) {
@@ -106,5 +104,4 @@
         letter-spacing: 1px;
         margin: 23px 3px 13px;
     }
-   
 }

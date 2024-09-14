@@ -3,7 +3,6 @@ import imgWeWork from "../../assets/img_mobil/bg-pattern-how-we-work-mobile.svg"
 import imgWeWork1 from "../../assets/img_desktop/bg-pattern-how-we-work-desktop.svg"
 
 
-
 const Nostros = () => {
 
     return(
